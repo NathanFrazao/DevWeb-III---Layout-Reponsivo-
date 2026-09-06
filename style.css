@@ -98,3 +98,33 @@ body {
   font-size: 0.85rem;
   color: #9ab;
 }
+
+
+/* ===== Avaliação (estrelas) ===== */
+.rating-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #9ab;
+  text-transform: uppercase;
+}
+ 
+.stars i {
+  color: #ff8000; /* mesma cor laranja do rank-badge, mantém consistência */
+  font-size: 1.9rem;
+  margin-right: 4px;
+}
+
+
+
+.feature-icon {
+  font-size: 2rem;
+  color: #ff8000;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.features-section h4 {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
