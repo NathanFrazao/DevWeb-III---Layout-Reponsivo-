@@ -64,10 +64,6 @@ html {
 }
 
 
-  overflow: hidden;
-  border-radius: 6px;
-}
-
 .carousel-item {
   height: 500px;
   overflow: hidden;
@@ -103,6 +99,7 @@ html {
 
 .movie-card:hover {
   transform: translateY(-4px);
+  background-color: #ff8000;
 }
 
 .movie-card a {
@@ -121,7 +118,7 @@ html {
   top: 10px;
   left: 10px;
   background-color: #ff8000; /* laranja tipo Letterboxd */
-  color: #14181c;
+  color: #ffffff;
   font-weight: 700;
   font-size: 1.1rem;
   width: 36px;
@@ -145,7 +142,7 @@ html {
 
 .movie-meta {
   font-size: 0.85rem;
-  color: #9ab;
+  color: rgb(251, 251, 252);
 }
 
 
@@ -173,4 +170,17 @@ html {
 .features-section h4 {
   font-weight: 600;
   margin-bottom: 8px;
+}
+
+.cinema-item {
+  background-color: #1c2228;
+  transition: transform 0.15s ease;
+  height: 150px;
+  width: 100%;
+  color: inherit;
+}
+
+.cinema-item:hover {
+  transform: translateX(6px);
+  background-color: #ff8000;
 }
