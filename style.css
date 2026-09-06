@@ -19,3 +19,13 @@ body {
   object-fit: cover;
   object-position: center center;
 }
+
+.about-movie h2 {
+  font-size: 50px;
+}
+
+.about-movie p {
+  color: #cfd6dd;
+  line-height: 1.7;
+  font-size: 20px;
+}
