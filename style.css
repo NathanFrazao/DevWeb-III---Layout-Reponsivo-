@@ -175,3 +175,47 @@ html {
   font-weight: 600;
   margin-bottom: 8px;
 }
+
+
+/* ===== Onde Assistir ===== */
+.platform-badge {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: #fff;
+  transition: opacity 0.2s ease;
+}
+ 
+.platform-badge:hover {
+  opacity: 0.85;
+  color: #fff;
+}
+ 
+.platform-badge.netflix {
+  background-color: #E50914;
+}
+ 
+.platform-badge.prime {
+  background-color: #00A8E1;
+  color: #0d1013;
+}
+ 
+.platform-badge.prime:hover {
+  color: #0d1013;
+}
+ 
+.platform-badge.disney {
+  background-color: #113CCF;
+}
+ 
+.platform-badge.hbo {
+  background-color: #5822b4;
+}
+ 
+.platform-badge.apple {
+  background-color: #2b2b2b;
+  border: 1px solid #444;
+}
