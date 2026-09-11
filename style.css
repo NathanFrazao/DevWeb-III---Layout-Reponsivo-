@@ -187,7 +187,7 @@ html {
 /* Aplica o ajuste apenas em telas de celular (até 576px de largura) */
 @media (max-width: 576px) {
     .carousel-inner, .carousel-item {
-        height: 230px; /* Define uma altura fixa confortável para o celular */
+        height: 220px; /* Define uma altura fixa confortável para o celular */
     }
 
     .carousel-item img {
