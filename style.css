@@ -184,3 +184,15 @@ html {
   transform: translateX(6px);
   background-color: #ff8000;
 }
+/* Aplica o ajuste apenas em telas de celular (até 576px de largura) */
+@media (max-width: 576px) {
+    .carousel-inner, .carousel-item {
+        height: 230px; /* Define uma altura fixa confortável para o celular */
+    }
+
+    .carousel-item img {
+        height: 100%;
+        object-fit: cover; /* Preenche o espaço e corta as sobras sem distorcer */
+        object-position: center; /* Garante que o meio da imagem fique visível */
+    }
+}
